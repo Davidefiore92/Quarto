@@ -1,0 +1,10 @@
+#directories
+.git
+.vs
+packages
+LibraryModel/bin
+LibraryModel/obj
+WpfApp3/bin
+WpfApp3/obj
+
+#files

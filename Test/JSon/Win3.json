@@ -1,0 +1,10 @@
+﻿{
+    "0,0": "Bianco, Tondo, Basso, NoBuco",
+    "2,2": "Nero, Tondo, Basso, NoBuco",
+    "0,1": "Nero, Quadrato, Alto, Buco",
+    "3,3": "Bianco, Quadrato, Alto, Buco",
+    "1,1": "Bianco, Quadrato, Basso, NoBuco",
+    "3,1": "Nero, Quadrato, Alto, NoBuco",
+    "2,1": "Bianco, Quadrato, Alto, NoBuco",
+    "Risultato_Aspettato": "Win"
+}

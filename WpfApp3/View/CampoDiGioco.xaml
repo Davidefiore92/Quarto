@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="WpfApp3.View.CampoDiGioco"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp3.ViewModels"
+             xmlns:src="clr-namespace:WpfApp3.Converter"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <src:ColorToBrush x:Key="ColorToBrush"/>
+        <src:AltezzaToInt x:Key="AltezzaToInt"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <ItemsControl HorizontalAlignment="Center" VerticalAlignment="center">
+            <ItemsControl.Resources>
+                <local:VM_Scacchiera x:Key="Scacchiera"/>
+            </ItemsControl.Resources>
+            <ItemsControl.DataContext>
+                <Binding Source="{StaticResource Scacchiera}"/>
+            </ItemsControl.DataContext>
+            <ItemsControl ItemsSource="{Binding Caselle_list}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="4"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+               <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Width="108" Height="108"
+                                BorderThickness="2"
+                                BorderBrush="Black"
+                                Background="{Binding Background}" 
+                                Command="{Binding MoveToCasella}">
+                            <Button Style="{StaticResource CustomButtonStyle}" 
+                                    Width="{Binding Pedina.Altezza, Converter={StaticResource AltezzaToInt}}"
+                                    Height="{Binding Pedina.Altezza, Converter={StaticResource AltezzaToInt}}"
+                                    BorderBrush="{Binding Pedina.Colore, Converter={StaticResource ColorToBrush}}"
+                                    Background="{Binding Pedina.Colore, Converter={StaticResource ColorToBrush}}">
+                                <Ellipse Width="{Binding Pedina.Buco, Converter={StaticResource BucoToInt}}" 
+                                             Height="{Binding Pedina.Buco, Converter={StaticResource BucoToInt}}"
+                                             Fill="Black"/>
+                            </Button>
+                        </Button>
+                    </DataTemplate> 
+                </ItemsControl.ItemTemplate> 
+            </ItemsControl>
+        </ItemsControl>
+    </Grid>
+
+</UserControl>

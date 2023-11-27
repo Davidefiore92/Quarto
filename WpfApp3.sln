@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3", "WpfApp3\WpfApp3.csproj", "{84478FD4-DF31-4886-9F02-E295C308358A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryModel", "LibraryModel\LibraryModel.csproj", "{EC484786-68AC-46DE-8D17-6B8799CEEC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{82942B67-8A48-47B6-B474-7197FD672D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84478FD4-DF31-4886-9F02-E295C308358A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84478FD4-DF31-4886-9F02-E295C308358A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84478FD4-DF31-4886-9F02-E295C308358A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84478FD4-DF31-4886-9F02-E295C308358A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC484786-68AC-46DE-8D17-6B8799CEEC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC484786-68AC-46DE-8D17-6B8799CEEC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC484786-68AC-46DE-8D17-6B8799CEEC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC484786-68AC-46DE-8D17-6B8799CEEC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82942B67-8A48-47B6-B474-7197FD672D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82942B67-8A48-47B6-B474-7197FD672D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82942B67-8A48-47B6-B474-7197FD672D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82942B67-8A48-47B6-B474-7197FD672D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B90F1E7D-F7F9-4165-9750-6DF14840FA90}
+	EndGlobalSection
+EndGlobal

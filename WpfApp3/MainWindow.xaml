@@ -1,0 +1,43 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:custom="clr-namespace:WpfApp3.Library"
+        d:DataContext="{d:DesignInstance Type={x:Type custom:VittoriaVsSconfitta}}"
+        mc:Ignorable="d"
+        xmlns:View="clr-namespace:WpfApp3.View" x:Class="WpfApp3.MainWindow" 
+        Title="" Height="800" Width="900" Background="#FFFFC182"
+        >
+
+    <StackPanel>
+
+        <TextBlock
+            FontSize="60" HorizontalAlignment="Center"
+            VerticalAlignment="Center" FontFamily="Comic Sans MS" 
+            FontWeight="Bold">
+            <Run Text="QUARTO!"/>
+        </TextBlock>
+
+        <Grid Width="660" Height="660" Margin="-180,10,0,0">
+            <Rectangle Width="650" Height="650" 
+                   Stroke="Black" StrokeThickness="2" 
+                   Fill="Transparent" RadiusX="20" RadiusY="20">
+            </Rectangle>
+            <Grid>
+                <Ellipse Width="620" Height="620"
+                 Stroke="Black" StrokeThickness="2"
+                 Fill="Transparent">
+                </Ellipse>
+
+                <StackPanel>
+                    <View:CampoDiGioco Margin="0,115,0,0"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+        <StackPanel Margin="685,-645,0,0" Width="184">
+            <View:Pedine Height="632"/>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>

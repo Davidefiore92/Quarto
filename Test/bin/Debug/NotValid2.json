@@ -1,0 +1,8 @@
+﻿{
+    "1, 1": "Bianco, Tondo, Alto, Buco",
+    "0, 0": "Nero, Tondo, Alto, NoBuco",
+    "2, 2": "Bianco, Tondo, Alto, NoBuco",
+    "1, 3": "Nero, Tondo, Alto, Buco",
+    "3, 0": "Nero, Tondo, Alto, NoBuco",
+    "Risultato_Aspettato": "Not Valid"
+}

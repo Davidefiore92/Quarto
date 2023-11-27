@@ -1,0 +1,21 @@
+﻿{
+    "3, 0": "Bianco, Tondo, Basso, NoBuco",
+    "0, 0": "Nero, Tondo, Alto, Buco",
+    "0, 1": "Bianco, Quadrato, Basso, NoBuco",
+    "0, 2": "Nero, Quadrato, Basso, Buco",
+    "0, 3": "Nero, Quadrato, Basso, NoBuco",
+    "1, 0": "Bianco, Quadrato, Basso, Buco",
+    "1, 1": "Bianco, Tondo, Alto, Buco",
+    "3, 3": "Nero, Tondo, Basso, NoBuco",
+    "1, 3": "Nero, Tondo, Basso, Buco",
+    "2, 0": "Nero, Tondo, Alto, NoBuco",
+    "2, 1": "Bianco, Tondo, Basso, Buco",
+    "2, 2": "Bianco, Quadrato, Alto, NoBuco",
+    "2, 3": "Bianco, Quadrato, Alto, Buco",
+    "1, 2": "Bianco, Tondo, Alto, NoBuco",
+    "3, 1": "Nero, Quadrato, Alto, Buco",
+    "3, 2": "Nero, Quadrato, Alto, NoBuco",
+    
+    "Risultato_Aspettato" :  "Defeat"
+}
+
